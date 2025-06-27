@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "ukjo3un504ppia0gu1dc",
+    "password": "MD9jzmWRY6rc6q25qfsg9Ue1wNwRb8",
+    "database": "boy1xevynofarhujhmsd",
+    "port": "50013",
+    "host": "91.208.207.32",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

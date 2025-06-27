@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+
+  body {
+    @apply bg-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-keni-blue text-white px-4 py-2 rounded hover:bg-keni-light-blue transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-keni-blue border border-keni-blue px-4 py-2 rounded hover:bg-gray-100 transition-colors;
+  }
+
+  .page-container {
+    @apply container mx-auto px-4 py-6;
+  }
+
+  .product-card {
+    @apply border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow;
+  }
+}

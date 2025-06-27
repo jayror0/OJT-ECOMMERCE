@@ -2,6 +2,15 @@
 
 A modern e-commerce website built with Vue.js and Tailwind CSS.
 
+## Screenshots of UI
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/uiphoto.png" alt="Homepage Screenshot" width="400">
+</p>
+
+
 ## Features
 
 - Responsive design for all device sizes
